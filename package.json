@@ -1,6 +1,6 @@
 {
   "name": "mgnl-bobby",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "My first npm based light module",
   "main": "index.js",
   "scripts": {
