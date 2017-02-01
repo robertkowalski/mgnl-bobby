@@ -61,3 +61,16 @@ npm run build
 
 # setup a select field
 npm install react-select --save
+
+##
+## publishing
+##
+# basic publish
+npm version 0.0.2
+npm publish
+git push origin master --tags
+
+# packing local tarball
+npm pack
+open mgnl-bobby-0.0.1.tgz
+```
