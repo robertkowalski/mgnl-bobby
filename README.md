@@ -55,3 +55,8 @@ npm install style-loader --save-dev
 npm install --save-dev babel-preset-airbnb
 
 npm run build
+
+# gitignore webresources/
+
+# setup a select field
+npm install react-select --save
