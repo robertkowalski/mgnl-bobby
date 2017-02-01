@@ -6,7 +6,7 @@ import SelectField from './select.js'
 
 ReactDOM.render(
   <div>
-    <div>Hello, I'm Bobby, a React Component</div>
+    <div>Hello, I'm Bobby, a React Component. Hello Topher!</div>
     <br/>
     <br/>
     <SelectField />
