@@ -72,5 +72,19 @@ git push origin master --tags
 
 # packing local tarball
 npm pack
-open mgnl-bobby-0.0.1.tgz
+open mgnl-bobby-0.0.2.tgz
+
+
+# retrieving with git
+git clone https://github.com/robertkowalski/mgnl-bobby.git -b 'v0.0.2' --single-branch --depth 1
+
+
+# curl / wget
+# get latest version
+curl http://registry.npmjs.org/mgnl-bobby/latest | jq '.dist.tarball'
+
+wget https://registry.npmjs.org/mgnl-bobby/-/mgnl-bobby-0.0.2.tgz
+mkdir mgnl-bobby
+tar --strip-components=1 -zxf mgnl-bobby-0.0.2.tgz -C ./bobby
+rm -rf mgnl-bobby-0.0.2.tgz
 ```
