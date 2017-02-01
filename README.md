@@ -29,6 +29,7 @@ mv mgnl-bobby ~/magnolia/light-modules
 touch .babelrc
 touch webpack.config.js
 
+npm i --save-dev mocha
 npm i --save-dev babel babel-preset-react babel-loader babel-core babel-preset-es2015 webpack
 npm i --save react react-dom
 # alter package.json scripts
