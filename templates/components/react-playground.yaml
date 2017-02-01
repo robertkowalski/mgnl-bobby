@@ -1,0 +1,4 @@
+title: react-playground
+renderType: freemarker
+templateScript: /mgnl-bobby/templates/components/react-playground.ftl
+dialog: mgnl-bobby:components/react-playground
