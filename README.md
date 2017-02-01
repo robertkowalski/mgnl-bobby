@@ -37,4 +37,21 @@ npm i --save react react-dom
 # create a gitignore to not commit node_modules
 touch .gitignore
 
-```
+# i want to use a popular calendar component
+# https://github.com/airbnb/react-dates
+
+(
+  export PKG=react-dates;
+  npm info "$PKG" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g; s/ *//g' | xargs npm install --save "$PKG"
+)
+
+
+npm install css-loader --save-dev
+npm install style-loader --save-dev
+
+# alter webpack.config.js for css loader
+
+# fix compile issue
+npm install --save-dev babel-preset-airbnb
+
+npm run build
