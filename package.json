@@ -2,16 +2,16 @@
   "name": "mgnl-bobby",
   "version": "0.0.3",
   "description": "My first npm based light module",
-  "main": "index.js",
+  "main": "webresources/bundle.js",
   "scripts": {
     "test": "echo \"test\"",
-    "build": "webpack webpack.config.js",
+    "build": "webpack --config=webpack.config.js",
     "watch": "npm run build -- --watch",
-    "prepublish": "npm run test && echo \"Building...\" && npm run build"
+    "prepublish": "npm run test && npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/robertkowalski/mgnl-bobby.git"
+    "url": "https://github.com/robertkowalski/mgnl-bobby.git"
   },
   "keywords": [
     "mgnl",
